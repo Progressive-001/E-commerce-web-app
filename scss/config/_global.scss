@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+html{
+  font-size: 62.5%;//1rem = 10px This now covert 1rem to 10px
+}
+
+body{ 
+  font-size: 1.6rem;
+  height: 100vh;
+  background-color: $Rose-100;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 825px 400px;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  gap: 20px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 3.5rem;
+  color: $Rose-900;
+  margin-left: 20px;
+}
+
+h2{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: $Rose-500;
+}
+
+h3{
+  font-size: 1.3rem;
+  color: $Rose-400;
+  font-weight: 500;
+}
+
+h6{
+  font-size: 1.3rem;
+  color: $Rose-900;
+}
+
+p{
+  font-weight: 600;
+  line-height: 2.0;
+  font-size: 1.4rem;
+}
+
+.price{
+  font-size: 1.3rem;
+  color: $Red;
+}
